@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>BayBeans</title>
+	<link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cestilos.css">
+	<link rel="icon" href="hojas.png" type="image/x-icon" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+		<div class="container-hero">
+			<div class="container hero">
+				<div class="customer-support">
+					<i class="fa-solid fa-headset"></i>
+					<div class="content-customer-support">
+						<span class="texto">Soporte al cliente</span>
+						<span class="numero">(+52) 55-60-98-98-00</span>
+					</div>
+				</div>
+
+				<div class="container-logo">
+					<i class="fa-solid fa-comment-dots"></i>
+					<h1 class="logo"><a href="/">Baybeans</a></h1>
+				</div>
+
+				<div class="container-user">
+					<i class="fa-solid fa-user"></i>
+					<i class="fa-solid fa-book"></i>
+
+					<div class="content-shopping-cart">
+						<span class="texto">Cursos</span>
+						<span class="numero">(2)</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-navbar">
+			<nav class="navbar container">
+				<i class="fa-solid fa-bars"></i>
+				<ul class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="boust.html">Nosotros</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="#">Contáctanos</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li class="dropdown">
+						<a href="#" id="accesibilidad-toggle">
+							<i class="fa-solid fa-universal-access">
+								<p class="a">Ayuda</p>
+							</i>
+						</a>
+						<div class="dropdown-content accesibilidad" id="accesibilidad-menu">
+							<button id="daltonico-btn"><i class="fa-solid fa-eye"></i> Modo Daltonismo</button>
+							<button id="aumentar-letra-btn"><i class="fa-solid fa-text-height"></i> Aumentar
+								Letra</button>
+							<button id="disminuir-letra-btn"><i class="fa-solid fa-text-width"></i> Disminuir
+								Letra</button>
+						</div>
+					</li>
+				</ul>
+				<form class="search-form">
+					<input type="search" placeholder="Buscar..." />
+					<button class="btn-search">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</button>
+				</form>
+			</nav>
+		</div>
+	</header>
+    <div class="contact_us_green">
+        <div class="responsive-container-block big-container">
+          <div class="responsive-container-block container">
+			<div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-7 wk-ipadp-10 line" id="i69b-2">
+				<form id="contact-form" class="form-box">
+    <div class="container-block form-wrapper">
+        <div class="head-text-box">
+            <p class="text-blk contactus-head">
+                Contacta con nosotros
+            </p>
+            <p class="text-blk contactus-subhead">
+                Si tienes alguna pregunta, sugerencia o inquietud, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte y responder a tus necesidades de la mejor manera posible.
+                Puedes hacerlo a través de los siguientes medios:
+            </p>
+        </div>
+        <div class="responsive-container-block">
+            <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-6">
+                <p class="text-blk input-title">
+                    Nombre
+                </p>
+                <input class="input" id="first-name" name="FirstName">
+                <span class="error" id="error-first-name"></span>
+            </div>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                <p class="text-blk input-title">
+                    Apellidos
+                </p>
+                <input class="input" id="last-name" name="LastName">
+                <span class="error" id="error-last-name"></span>
+            </div>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                <p class="text-blk input-title">
+                    Correo electrónico
+                </p>
+                <input class="input" id="email" name="Email" type="email">
+                <span class="error" id="error-email"></span>
+            </div>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                <p class="text-blk input-title">
+                    Número de teléfono
+                </p>
+                <input class="input" id="phone" name="PhoneNumber">
+                <span class="error" id="error-phone"></span>
+            </div>
+
+
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                <p class="text-blk input-title">
+                    ¿Cuál es el tipo de tu comentario?
+                </p>
+                <select class="input" id="comment-type" name="CommentType">
+                    <option value="positivo">Comentario positivo</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="pregunta">Pregunta</option>
+                    <option value="queja">Queja</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <span class="error" id="error-comment-type"></span>
+            </div>
+
+            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-6">
+                <p class="text-blk input-title">
+                    ¿Qué tienes en mente?
+                </p>
+                <textarea class="textinput" id="message" placeholder="Por favor escríbenos tus dudas..."></textarea>
+                <span class="error" id="error-message"></span>
+            </div>
+        </div>
+        <div class="btn-wrapper">
+            <button type="submit" class="submit-btn">
+                Enviar
+            </button>
+        </div>
+    </div>
+</form>
+
+			</div>
+            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-5 wk-ipadp-10" id="ifgi">
+              <div class="container-box">
+                <div class="text-content">
+                  <p class="text-blk contactus-head">
+                    Contacta con nosotros:
+                  </p>
+                  <p class="text-blk contactus-subhead">
+                    Si tienes alguna pregunta, sugerencia o inquietud, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte y responder a tus necesidades de la mejor manera posible.
+
+                    Puedes hacerlo a través de los siguientes medios:
+                </div>
+                <div class="workik-contact-bigbox">
+                  <div class="workik-contact-box">
+                    <div class="phone text-box">
+                      <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET21.jpg">
+                      <p class="contact-text">
+                        (+52) 55-60-98-98-00
+                      </p>
+                    </div>
+                    <div class="address text-box">
+                      <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET22.jpg">
+                      <p class="contact-text">
+                        bayBeans@gmail.com
+                      </p>
+                    </div>
+                    <div class="mail text-box">
+                      <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET23.jpg">
+                      <p class="contact-text">
+							Dirección: Av. Las Torres Col. El sol. Mex
+                      </p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <footer class="footer">
+		<div class="container container-footer">
+			<div class="menu-footer">
+				<div class="contact-info">
+					<p class="title-footer">Información de Contacto</p>
+					<ul>
+						<li>
+							Dirección: Av. Las Torres Col. El sol. Mex
+						</li>
+						<li>Teléfono: (+52) 55-60-98-98-00</li>
+						<li>EmaiL: bayBeans@gmail.com</li>
+					</ul>
+					<div class="social-icons">
+						<span class="facebook">
+							<i class="fa-brands fa-facebook-f"></i>
+						</span>
+						<span class="twitter">
+							<i class="fa-solid fa-x"></i>
+
+						</span>
+						<span class="youtube">
+							<i class="fa-brands fa-youtube"></i>
+						</span>
+						<span class="pinterest">
+							<i class="fa-brands fa-pinterest-p"></i>
+						</span>
+						<span class="instagram">
+							<i class="fa-brands fa-instagram"></i>
+						</span>
+					</div>
+				</div>
+
+				<div class="information">
+					<p class="title-footer">Información</p>
+					<ul>
+						<li><a href="#">Acerca de Nosotros</a></li>
+						<li><a href="#">Politicas de Privacidad</a></li>
+						<li><a href="#">Contactános</a></li>
+					</ul>
+				</div>
+
+				<div class="my-account">
+					<p class="title-footer">Mi cuenta</p>
+					<ul>
+						<li><a href="#">Mi cuenta</a></li>
+						<li><a href="#">Historial de cursos</a></li>
+					</ul>
+				</div>
+
+				<div class="newsletter">
+					<p class="title-footer">Boletín informativo</p>
+
+					<div class="content">
+						<p>
+							En Baybeans queremos que disfrutes tu experiencia. Te invitamos a revisar nuestros Términos
+							y
+							Condiciones, donde encontrarás todo lo necesario sobre el uso del sitio.
+							¡Estamos aquí para ayudarte si tienes alguna duda!
+						</p><br>
+
+						<button>Términos y condiciones</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<p>
+					Desarrollado por Baybeans &copy; 2024
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+	<script src="scrip.js"></script>
+	<script src="a.js"> </script>
+	<script src="menu.js"> </script>
+
+
+
+
+</body>
+
+</html>
+
+

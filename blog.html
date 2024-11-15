@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>BayBeans</title>
+	<link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="blog.css">
+	<link rel="icon" href="hojas.png" type="image/x-icon" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+		<div class="container-hero">
+			<div class="container hero">
+				<div class="customer-support">
+					<i class="fa-solid fa-headset"></i>
+					<div class="content-customer-support">
+						<span class="texto">Soporte al cliente</span>
+						<span class="numero">(+52) 55-60-98-98-00</span>
+					</div>
+				</div>
+
+				<div class="container-logo">
+					<i class="fa-solid fa-comment-dots"></i>
+					<h1 class="logo"><a href="/">Baybeans</a></h1>
+				</div>
+
+				<div class="container-user">
+					<i class="fa-solid fa-user"></i>
+					<i class="fa-solid fa-book"></i>
+
+					<div class="content-shopping-cart">
+						<span class="texto">Cursos</span>
+						<span class="numero">(2)</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-navbar">
+			<nav class="navbar container">
+				<i class="fa-solid fa-bars"></i>
+				<ul class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="aboust.html">Nosotros</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="contactanos.html">Contáctanos</a></li>
+					<li><a href="#">Blog</a></li>
+					<li class="dropdown">
+						<a href="#" id="accesibilidad-toggle">
+							<i class="fa-solid fa-universal-access">
+								<p class="a">Ayuda</p>
+							</i>
+						</a>
+						<div class="dropdown-content accesibilidad" id="accesibilidad-menu">
+							<button id="daltonico-btn"><i class="fa-solid fa-eye"></i> Modo Daltonismo</button>
+							<button id="aumentar-letra-btn"><i class="fa-solid fa-text-height"></i> Aumentar
+								Letra</button>
+							<button id="disminuir-letra-btn"><i class="fa-solid fa-text-width"></i> Disminuir
+								Letra</button>
+						</div>
+					</li>
+				</ul>
+				<form class="search-form">
+					<input type="search" placeholder="Buscar..." />
+					<button class="btn-search">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</button>
+				</form>
+			</nav>
+		</div>
+	</header>
+
+    <div class="container">
+        <div class="left-column">
+            <h1>La plataforma líder de aprendizaje</h1>
+            <p>Hemos formado un equipo de docentes altamente especializados, respaldado por material didáctico de excelencia y expertos en metodologías de enseñanza innovadoras. Juntos diseñan cursos personalizados que permiten a los alumnos aprender italiano y francés con fluidez, eficacia y de manera adaptada a sus necesidades.</p>
+     
+            <form action="#" method="POST" class="subscription-form">
+                <label for="email">Ingresa tu correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="tu-email@ejemplo.com" required>
+                <button type="submit">¡Suscríbete para recibir más notificaciones!</button>
+            </form>
+        </div>
+        <div class="right-column">
+            <div class="main-image">
+                <img src="paps (1).jpg" alt="Persona hablando">
+            </div>
+        </div>
+    </div>
+    <div class="migue">
+		<section class="conocimiento">
+			<h1>Haz del conocimiento tu superpoder. Da el primer paso hoy. </h1>
+			<h2>Pruébalo ahora, cambia tu futuro.</h2>
+		</section>
+	</div>
+
+		<section class="container blogs">
+			<h1 class="heading-1"> Reseñas</h1>
+
+			<div class="container-blogs">
+				<div class="card-blog">
+					<div class="container-img">
+						<img src="blogl (4).jpg" alt="Imagen Blog 1" />
+						<div class="button-group-blog">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-link"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-blog">
+						<h3>Curso de inglés: GENERAL ENGLISH</h3>
+						<span>15 Octubre 2024</span>
+						<p>
+							Me encantó la maestra, su forma de explicar es clara y dinámica. <br>
+							Cada clase es interesante y llena de ejemplos prácticos que facilitan el aprendizaje. <br>
+							Estoy realmente motivado para seguir avanzando.
+						</p>
+						<div class="btn-read-more">Leer más</div>
+					</div>
+				</div>
+				<div class="card-blog">
+					<div class="container-img">
+						<img src="blogl (1).jpg" alt="Imagen Blog 2" />
+						<div class="button-group-blog">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-link"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-blog">
+						<h3>Curso de inglés: BUSINESS ENGLISH</h3>
+						<span>19 Septiembre 2024</span>
+						<p>
+							Las clases son muy interactivas, lo que hace que aprender sea divertido. Las actividades
+							grupales me ayudan a ganar confianza al hablar, y me siento más cómodo expresándome en
+							inglés. ¡Es genial aprender de esta manera!
+						</p>
+						<div class="btn-read-more">Leer más</div>
+					</div>
+				</div>
+				<div class="card-blog">
+					<div class="container-img">
+						<img src="blogl (2).jpg" alt="Imagen Blog 2" />
+						<div class="button-group-blog">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-link"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-blog">
+						<h3>Curso de inglés: ENGLISH FOR ACADEMIC</h3>
+						<span>29 Noviembre 2023</span>
+						<p>
+							El contenido del curso es práctico y útil. Me siento más preparada para enfrentar
+							situaciones en inglés gracias a las técnicas que se enseñan. Cada lección me acerca más a la
+							fluidez que busco. ¡Una experiencia muy valiosa!
+						</p>
+						<div class="btn-read-more">Leer más</div>
+					</div>
+				</div>
+                <div class="card-blog">
+					<div class="container-img">
+						<img src="blogl (3).jpg" alt="Imagen Blog 2" />
+						<div class="button-group-blog">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-link"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-blog">
+						<h3>Curso de inglés: GENERAL ENGLISH</h3>
+						<span>15 Octubre 2024</span>
+						<p>
+							Me encantó la maestra, su forma de explicar es clara y dinámica. <br>
+							Cada clase es interesante y llena de ejemplos prácticos que facilitan el aprendizaje. <br>
+							Estoy realmente motivado para seguir avanzando.
+						</p>
+						<div class="btn-read-more">Leer más</div>
+					</div>
+				</div>
+                <div class="card-blog">
+					<div class="container-img">
+						<img src="blog (1).jpg" alt="Imagen Blog 1" />
+						<div class="button-group-blog">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-link"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-blog">
+						<h3>Curso de inglés: GENERAL ENGLISH</h3>
+						<span>15 Octubre 2024</span>
+						<p>
+							Me encantó la maestra, su forma de explicar es clara y dinámica. <br>
+							Cada clase es interesante y llena de ejemplos prácticos que facilitan el aprendizaje. <br>
+							Estoy realmente motivado para seguir avanzando.
+						</p>
+						<div class="btn-read-more">Leer más</div>
+					</div>
+				</div>
+                <div class="card-blog">
+					<div class="container-img">
+						<img src="blog (2).jpg" alt="Imagen Blog 1" />
+						<div class="button-group-blog">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-link"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-blog">
+						<h3>Curso de inglés: GENERAL ENGLISH</h3>
+						<span>15 Octubre 2024</span>
+						<p>
+							Me encantó la maestra, su forma de explicar es clara y dinámica. <br>
+							Cada clase es interesante y llena de ejemplos prácticos que facilitan el aprendizaje. <br>
+							Estoy realmente motivado para seguir avanzando.
+						</p>
+						<div class="btn-read-more">Leer más</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: Av. Las Torres Col. El sol. Mex
+							</li>
+							<li>Teléfono: (+52) 55-60-98-98-00</li>
+							<li>EmaiL: bayBeans@gmail.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-solid fa-x"></i>
+	
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							<span class="pinterest">
+								<i class="fa-brands fa-pinterest-p"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+	
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+	
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de cursos</a></li>
+						</ul>
+					</div>
+	
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+	
+						<div class="content">
+							<p>
+								En Baybeans queremos que disfrutes tu experiencia. Te invitamos a revisar nuestros Términos
+								y
+								Condiciones, donde encontrarás todo lo necesario sobre el uso del sitio.
+								¡Estamos aquí para ayudarte si tienes alguna duda!
+							</p><br>
+	
+							<button>Términos y condiciones</button>
+						</div>
+					</div>
+				</div>
+	
+				<div class="copyright">
+					<p>
+						Desarrollado por Baybeans &copy; 2024
+					</p>
+				</div>
+			</div>
+		</footer>
+	
+		<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+		<script src="scrip.js"></script>
+		<script src="a.js"> </script>
+		<script src="menu.js"> </script>
+	
+	
+	
+	
+	</body>
+	
+	</html>

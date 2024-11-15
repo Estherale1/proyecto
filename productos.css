@@ -1,0 +1,89 @@
+
+body {
+	font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.stream-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stream-container .card {
+    background-color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 320px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.stream-container .live-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e2327b;
+    color: white;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.stream-container .thumbnail {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.stream-container .info {
+    padding: 12px;
+}
+
+.stream-container .viewers {
+    font-size: 14px;
+    color: #c0c0c0;
+    margin: 0;
+}
+
+.stream-container .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 0;
+    color: #ffffff;
+}
+
+.stream-container .user {
+    font-size: 14px;
+    color: #c0c0c0;
+    margin: 0;
+}
+
+.stream-container .nivel {
+    font-size: 14px;
+    color: #c0c0c0;
+    margin: 4px 0;
+}
+
+.stream-container .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.stream-container .tag {
+    background-color: #333;
+    color: #c0c0c0;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    cursor: default;
+    text-transform: capitalize;
+}
+
+
